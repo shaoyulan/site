@@ -298,11 +298,15 @@ footer{
 
 
 
-
+/*Modal*/
 .modal-content img{
 	max-width: 100%;
 }
-
+.close-icon{
+	position: absolute;
+	right: 0;
+}
 .closeModal{
 	cursor: pointer;
 }
+
