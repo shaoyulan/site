@@ -225,9 +225,10 @@ footer{
 	header .container{
 		height: calc(50vh - 56px);
 	}*/
-	header{
+	header, .works-section, footer{
 		background-size: auto;
 	}
+
 	.works-section .works li{
 		margin-bottom: 30px;
 	}
@@ -263,7 +264,9 @@ footer{
 	.works-section .nav{
 		flex-direction: column;
 	}
-
+	footer{
+		height: 80px;
+	}
 }
 
 
