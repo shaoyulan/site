@@ -17,7 +17,8 @@
 /*override animated modal*/
 html,body{
 	/*avoid y-axis scrllBar after close modal*/
-	overflow: unset!important;
+	overflow-y: unset!important;
+	overflow-x: hidden;
 	font-family: Microsoft JhengHei;
 }
 
@@ -217,17 +218,17 @@ footer{
 	}*/
 }
 @media screen and (max-width: 574px) {
-	header,.wrap{
+	/*header,.wrap{
 		height: 50vh;
 	}
 	header .container{
 		height: calc(50vh - 56px);
-	}
+	}*/
 	.works-section .works li{
 		margin-bottom: 30px;
 	}
 	header h1{
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	/*about*/
 	.about-section .protrait{
@@ -245,9 +246,18 @@ footer{
 	.skill-section .skill-row .skill-item > div{
 		width: unset;
 		padding-left: 10px;
+		padding-bottom: 0;
+	}
+	.skill-section .skill-row .skill-item  p{
+		margin: 0;
 	}
 	.skill-section .circle-plate{
 		width: 143px; 
+	}
+
+	/*works*/
+	.works-section .nav{
+		flex-direction: column;
 	}
 
 }
