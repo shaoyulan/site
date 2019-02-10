@@ -39,6 +39,10 @@ $(function(e){
 			$('.works-section .nav-link:eq(2)').click();
 		}
 
-		
+
+
+	});
+	$('.close-animatedModal').on('click',function(e){
+		$('body').css('overflow','hidden');
 	});
 });

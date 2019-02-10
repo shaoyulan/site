@@ -17,7 +17,7 @@
 /*override animated modal*/
 html,body{
 	/*avoid y-axis scrllBar after close modal*/
-	overflow-y: unset!important;
+	/*overflow-y: unset!important;*/
 	font-family: Microsoft JhengHei;
 }
 
