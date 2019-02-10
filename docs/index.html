@@ -369,31 +369,29 @@
                     <li>
                       <div class="card" style="width: 18rem;">
                         <!-- Taget : id + href -->
-                        <a class="demo01" ="demo01" href="#js-kaoshiung">
-                          <img class="card-img-top" src="img/k1.jpg" alt="Card image cap">
+                        <a class="demo07" ="demo01" href="#php-product">
+                          <img class="card-img-top" src="img/php1.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
-                          <h5 class="card-title">高雄市旅遊資訊網</h5>
+                          <h5 class="card-title">產品搜尋</h5>
                           <p>
-                            <span class="badge badge-secondary">AJAX</span>
-                            <span class="badge badge-secondary">JSON</span>
+                            <span class="badge badge-secondary">MySQL</span>
                           </p>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">實作由下拉式選單選取特定條件，並找出符合條件之產品，將結果以列表顯示。</p>
                         </div>
                       </div>
-
                     </li>
                     <li>
                       <div class="card" style="width: 18rem;">
-                        <a class="demo02" href="#js-bmi">
-                          <img class="card-img-top" src="img/bmi1.jpg" alt="Card image cap">
+                        <a class="demo08" href="#php-department">
+                          <img class="card-img-top" src="img/php5.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
-                          <h5 class="card-title">BMI 計算機</h5>
+                          <h5 class="card-title">部門業績及加班費報表</h5>
                           <p>
-                            <span class="badge badge-secondary">Session Storage</span>
+                            <span class="badge badge-secondary">MySQL</span>
                           </p>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">依據選定年度、部門、報表種類，將員工業績或加班費請領概況予以排序列表顯示。</p>
                         </div>
                       </div>
                     </li>
@@ -508,14 +506,11 @@
                 <img src="img/k1.jpg" alt="">
                 <img src="img/k2.jpg" alt="">
                 <img src="img/k1.jpg" alt="">
-                
               </div>
               <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <!-- 內容二 -->
-
               </div>
             </div> <!-- Bootstrap Nav -->
-              
           </div>
         </div>
     </div>
@@ -541,8 +536,33 @@
           <hr>
           <div class="modal-content">
               <!--Your modal content goes here-->
-              <img src="img/bmi1.jpg" alt="">
-              <img src="" alt="">
+                <!-- Bootstrap Nav -->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#js2-home" role="tab" aria-controls="home" aria-selected="true">
+                    概覽
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#js2-profile" role="tab" aria-controls="profile" aria-selected="false">
+                      流程說明
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" target="_blank"  href="http:google.com" role="tab" aria-controls="profile" aria-selected="false">
+                      作品連結
+                    </a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="js2-home" role="tabpanel" aria-labelledby="home-tab">
+                    <!-- 內容一 -->
+                    <img src="img/bmi1.jpg" alt="">
+                  </div>
+                  <div class="tab-pane fade" id="js2-profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <!-- 內容二 -->
+                  </div>
+                </div> <!-- Bootstrap Nav -->
           </div>
         </div>
     </div>
@@ -568,8 +588,33 @@
           <hr>
           <div class="modal-content">
               <!--Your modal content goes here-->
-              <img src="img/todolist1.jpg" alt="">
-              <img src="" alt="">
+                <!-- Bootstrap Nav -->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#js3-home" role="tab" aria-controls="home" aria-selected="true">
+                    概覽
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#js3-profile" role="tab" aria-controls="profile" aria-selected="false">
+                      流程說明
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" target="_blank"  href="http:google.com" role="tab" aria-controls="profile" aria-selected="false">
+                      作品連結
+                    </a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="js3-home" role="tabpanel" aria-labelledby="home-tab">
+                    <!-- 內容一 -->
+                    <img src="img/todolist1.jpg" alt="">
+                  </div>
+                  <div class="tab-pane fade" id="js3-profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <!-- 內容二 -->
+                  </div>
+                </div> <!-- Bootstrap Nav -->
           </div>
         </div>
     </div>
@@ -651,6 +696,110 @@
               <!--Your modal content goes here-->
               <img src="img/blog1.jpg" alt="">
               <img src="" alt="">
+          </div>
+        </div>
+    </div>
+
+
+    <!-- PHP Modal 1 -->
+    <!-- modal -->
+    <div id="php-product">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div class="container">
+          <div class="close-icon d-flex pt-3 pr-3">
+            <a  id="btn-close-modal" class="close-php-product closeModal ml-auto"> 
+                <i class="far fa-times-circle fa-2x"></i>
+            </a>
+          </div>
+          <div class="title text-center">
+            <h3>PHP</h3>
+            <p class="h2">產品搜尋</p>
+            <div class="tags">
+              <span class="badge badge-secondary">MySQL</span>
+            </div>
+          </div>
+          <hr>
+          <div class="modal-content">
+              <!--Your modal content goes here-->
+                <!-- Bootstrap Nav -->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#php1-home" role="tab" aria-controls="home" aria-selected="true">
+                    概覽
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#php1-profile" role="tab" aria-controls="profile" aria-selected="false">
+                      流程說明
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" target="_blank"  href="http:google.com" role="tab" aria-controls="profile" aria-selected="false">
+                      作品連結
+                    </a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="php1-home" role="tabpanel" aria-labelledby="home-tab">
+                    <!-- 內容一 -->
+                    <img src="img/php1.jpg" alt="">
+                  </div>
+                  <div class="tab-pane fade" id="php1-profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <!-- 內容二 -->
+                  </div>
+                </div> <!-- Bootstrap Nav -->
+          </div>
+        </div>
+    </div>
+
+    <!-- PHP Modal 1 -->
+    <!-- modal -->
+    <div id="php-department">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div class="container">
+          <div class="close-icon d-flex pt-3 pr-3">
+            <a  id="btn-close-modal" class="close-php-department closeModal ml-auto"> 
+                <i class="far fa-times-circle fa-2x"></i>
+            </a>
+          </div>
+          <div class="title text-center">
+            <h3>PHP</h3>
+            <p class="h2">部門業績、加班請領報表</p>
+            <div class="tags">
+              <span class="badge badge-secondary">MySQL</span>
+            </div>
+          </div>
+          <hr>
+          <div class="modal-content">
+              <!--Your modal content goes here-->
+                <!-- Bootstrap Nav -->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#php2-home" role="tab" aria-controls="home" aria-selected="true">
+                    概覽
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#php2-profile" role="tab" aria-controls="profile" aria-selected="false">
+                      流程說明
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" target="_blank"  href="http:google.com" role="tab" aria-controls="profile" aria-selected="false">
+                      作品連結
+                    </a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="php2-home" role="tabpanel" aria-labelledby="home-tab">
+                    <!-- 內容一 -->
+                    <img src="img/php5.jpg" alt="">
+                  </div>
+                  <div class="tab-pane fade" id="php2-profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <!-- 內容二 -->
+                    程式流程說明
+                  </div>
+                </div> <!-- Bootstrap Nav -->
           </div>
         </div>
     </div>
