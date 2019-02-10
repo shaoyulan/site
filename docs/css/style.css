@@ -56,20 +56,26 @@ header{
 		bottom: -8px;
 	}
 }
+
 section{
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	position: relative;
 }
 nav{
 	height: 56px !important;
 }
+.card-img-top{
+	height: 141px;
+}
 .content{
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	/*background: #CCC;*/
 	width: 100%;
 }
+
+
 .content-contact{
-	height: calc(100vh - 200px);
+	/*height: calc(100vh - 200px);*/
 	width: 100%;
 }
 header{
@@ -123,7 +129,7 @@ header h1{
 }
 .contact-section{
 	background:#cddc39;
-	height: calc(100vh - 200px);
+	/*height: calc(100vh - 200px);*/
 	position: relative;
 }
 .skill-section{
@@ -207,6 +213,7 @@ footer{
 	}
 	.skill-section .skill-row{
 		margin-bottom: 25px;
+		justify-content: center;
 	}
 	.skill-section .skill-row .skill-item > div{
 		width: 33%;
