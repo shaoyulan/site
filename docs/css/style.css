@@ -209,6 +209,7 @@ footer{
 	}
 	.skill-section .circle-plate{
 		margin-right: 10px;
+		width: 112px;
 	}
 	.skill-section .skill-item span{
 		font-weight: bold;
@@ -224,6 +225,9 @@ footer{
 	header .container{
 		height: calc(50vh - 56px);
 	}*/
+	header{
+		background-size: auto;
+	}
 	.works-section .works li{
 		margin-bottom: 30px;
 	}
