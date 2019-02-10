@@ -1,12 +1,21 @@
 $(function(e){
+	let modalCount = $('.modal-content').length; // 有幾個Modal
 
 	// Scroll and show
 	$('.block').smoove();
 
 	// Animated Modal
-	$("#demo01").animatedModal({
-		color:'#f8f8f8'
-	});
+	while(modalCount>0){
+		$(".demo0"+modalCount).animatedModal({
+			color:'#f8f8f8'
+		});
+		modalCount--;
+	}
+	
+
+	// $(".demo02").animatedModal({
+	// 	color:'#f8f8f8'
+	// });
 
 	// Click Link on Nav
 	$('header .nav-link,header .dropdown-item').on('click',function(e){
@@ -42,7 +51,7 @@ $(function(e){
 
 
 	});
-	$('.close-animatedModal').on('click',function(e){
+	$('.closeModal').on('click',function(e){
 		$('body').css('overflow','hidden');
 	});
 });

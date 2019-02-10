@@ -302,3 +302,7 @@ footer{
 .modal-content img{
 	max-width: 100%;
 }
+
+.closeModal{
+	cursor: pointer;
+}
