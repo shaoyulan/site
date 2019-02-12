@@ -114,8 +114,11 @@ header h1{
 	text-align: justify;
 	line-height: 2rem;
 }
-.about-section .content,.skill-section .content,.works-section .content,.contact-section .content-contact{
+.about-section .content,.skill-section .content,.works-section .content{
 	margin-top: 5%;
+}
+.contact-section .content-contact{
+	margin-top: 2%;
 }
 .about-section h2,.skill-section h2,.works-section h2,.contact-section h2{
 	font-size: 3rem;

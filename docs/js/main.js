@@ -2,6 +2,11 @@ $(function(e){
 	let modalCount = $('.modal-content').length; // 有幾個Modal
 	console.log(modalCount);
 
+
+	// temporary setting
+	$('.nav-item:contains("流程說明")').css({'display':'none'});
+
+	
 	// Scroll and show
 	$('.block').smoove();
 
