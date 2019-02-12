@@ -10,6 +10,17 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short icon" href="img/ico.ico">
+    <meta name="description" content="Shaoyu's Personal Website">
+    <meta name="keyword" content="JavaScript, jQuery, Front-End, F2E,HTML,CSS">
+    <meta property="og:title" content="Shaoyu's Personal Website">
+    <meta property="og:description" content="Shaoyu's Personal Website">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     
     <link rel="stylesheet" href="css/style.css">
     <style>
@@ -22,9 +33,6 @@
     <title>Shao's Website</title>
   </head>
   <body>
-
-
-
 
     <!-- Cover page -->
     <header>
@@ -321,14 +329,15 @@
                     <li>
                       <div class="card" style="width: 18rem;">
                         <!-- Taget : id + href -->
-                        <a class="" ="demo01" href="#js-kaoshiung">
-                          <img class="card-img-top" src="img/k1.jpg" alt="Card image cap">
+                        <a class="demo07" ="demo01" href="#html-home1">
+                          <img class="card-img-top" src="img/rwd1.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
-                          <h5 class="card-title">高雄市旅遊資訊網</h5>
+                          <h5 class="card-title">首頁版型</h5>
                           <p>
-                            <span class="badge badge-secondary">AJAX</span>
-                            <span class="badge badge-secondary">JSON</span>
+                            <span class="badge badge-secondary">FB Comments</span>
+                            <span class="badge badge-secondary">Masonry</span>
+                            <span class="badge badge-secondary">NivoSlider</span>
                           </p>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -337,21 +346,22 @@
                     </li>
                     <li>
                       <div class="card" style="width: 18rem;">
-                        <a class="demo02" href="#js-bmi">
-                          <img class="card-img-top" src="img/bmi1.jpg" alt="Card image cap">
+                        <a class="demo08" href="#html-home2">
+                          <img class="card-img-top" src="img/rwd5.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
-                          <h5 class="card-title">BMI 計算機</h5>
+                          <h5 class="card-title">首頁版型2</h5>
                           <p>
-                            <span class="badge badge-secondary">Session Storage</span>
+                            <span class="badge badge-secondary">RWD</span>
                           </p>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div>
+                    
                     </li>
                     <li>
                       <div class="card" style="width: 18rem;">
-                        <a class="demo03" href="#js-todolist">
+                        <a class="demo09" href="#html-home3">
                           <img class="card-img-top" src="img/todolist1.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -373,7 +383,7 @@
                     <li>
                       <div class="card" style="width: 18rem;">
                         <!-- Taget : id + href -->
-                        <a class="demo07" ="demo01" href="#php-product">
+                        <a class="demo010" ="demo01" href="#php-product">
                           <img class="card-img-top" src="img/php1.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -387,7 +397,7 @@
                     </li>
                     <li>
                       <div class="card" style="width: 18rem;">
-                        <a class="demo08" href="#php-department">
+                        <a class="demo011" href="#php-department">
                           <img class="card-img-top" src="img/php5.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -401,7 +411,7 @@
                     </li>
                     <li>
                       <div class="card" style="width: 18rem;">
-                        <a class="demo09" href="#php-calendar">
+                        <a class="demo012" href="#php-calendar">
                           <img class="card-img-top" src="img/calendar1.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -501,7 +511,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="profile-tab" target="_blank"  href="http:google.com" role="tab" aria-controls="profile" aria-selected="false">
+                <a class="nav-link" id="profile-tab" target="_blank"  href="https://shaoyulan.github.io/works/JS_%E9%AB%98%E9%9B%84%E6%97%85%E9%81%8A%E8%B3%87%E8%A8%8A/#" role="tab" aria-controls="profile" aria-selected="false">
                   作品連結
                 </a>
               </li>
@@ -509,8 +519,16 @@
             <div class="tab-content" id="myTabContent">
               <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <!-- 內容一 -->
+                <div class="short-intro" style="display: flex">
+                  <div class="short-intro-img" style="width: 50%">
+                      <img src="img/k1.jpg" alt="">
+                  </div>
+                  <div class="short-intro-section">
+                    
+                  </div>
+                </div>
+                
                 <img src="img/k1.jpg" alt="">
-                <img src="img/k2.jpg" alt="">
                 <img src="img/k1.jpg" alt="">
               </div>
               <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -555,7 +573,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" target="_blank"  href="http:google.com" role="tab" aria-controls="profile" aria-selected="false">
+                    <a class="nav-link" id="profile-tab" target="_blank"  href="https://shaoyulan.github.io/works/JS_BMI/" role="tab" aria-controls="profile" aria-selected="false">
                       作品連結
                     </a>
                   </li>
@@ -607,7 +625,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" target="_blank"  href="http:google.com" role="tab" aria-controls="profile" aria-selected="false">
+                    <a class="nav-link" id="profile-tab" target="_blank"  href="https://shaoyulan.github.io/works/JS_SesstionStorage_todolist/Session_Storage_todolist.html" role="tab" aria-controls="profile" aria-selected="false">
                       作品連結
                     </a>
                   </li>
@@ -615,7 +633,8 @@
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="js3-home" role="tabpanel" aria-labelledby="home-tab">
                     <!-- 內容一 -->
-                    <img src="img/todolist1.jpg" alt="">
+                    <img src="img/todolist2.jpg" alt="">
+                    <img src="img/todolist3.jpg" alt="">
                   </div>
                   <div class="tab-pane fade" id="js3-profile" role="tabpanel" aria-labelledby="profile-tab">
                     <!-- 內容二 -->
@@ -705,7 +724,86 @@
           </div>
         </div>
     </div>
+    
+    <!-- Bootstrap Modal 4 -->
+    <!-- modal -->
+    <div id="html-home1">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div class="container">
+          <div class="close-icon d-flex pt-3 pr-3">
+            <a  id="btn-close-modal" class="close-html-home1 closeModal ml-auto"> 
+                <i class="far fa-times-circle fa-2x"></i>
+            </a>
+          </div>
+          <div class="title text-center">
+            <h3>HTML & CSS</h3>
+            <p class="h2">首頁版型</p>
+            <div class="tags">
+              <span class="badge badge-secondary">RWD</span>
+              <span class="badge badge-secondary">Facebook comment</span>
+              <span class="badge badge-secondary">Masnory</span>
+            </div>
+          </div>
+          <hr>
+          <div class="modal-content">
+              <!--Your modal content goes here-->
+              <img src="img/rwd1.jpg" alt="">
+              <img src="" alt="">
+          </div>
+        </div>
+    </div>
 
+    <!-- Bootstrap Modal 5 -->
+    <!-- modal -->
+    <div id="html-home2">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div class="container">
+          <div class="close-icon d-flex pt-3 pr-3">
+            <a  id="btn-close-modal" class="close-html-home2 closeModal ml-auto"> 
+                <i class="far fa-times-circle fa-2x"></i>
+            </a>
+          </div>
+          <div class="title text-center">
+            <h3>HTML & CSS</h3>
+            <p class="h2">首頁版型2</p>
+            <div class="tags">
+              <span class="badge badge-secondary">RWD</span>
+            </div>
+          </div>
+          <hr>
+          <div class="modal-content">
+              <!--Your modal content goes here-->
+              <img src="img/rwd5.jpg" alt="">
+              <img src="" alt="">
+          </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Modal 6 -->
+    <!-- modal -->
+    <div id="html-home3">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div class="container">
+          <div class="close-icon d-flex pt-3 pr-3">
+            <a  id="btn-close-modal" class="close-html-home3 closeModal ml-auto"> 
+                <i class="far fa-times-circle fa-2x"></i>
+            </a>
+          </div>
+          <div class="title text-center">
+            <h3>HTML & CSS</h3>
+            <p class="h2">首頁版型3</p>
+            <div class="tags">
+              <span class="badge badge-secondary">RWD</span>
+            </div>
+          </div>
+          <hr>
+          <div class="modal-content">
+              <!--Your modal content goes here-->
+              <img src="img/rwd5.jpg" alt="">
+              <img src="" alt="">
+          </div>
+        </div>
+    </div>
 
     <!-- PHP Modal 1 -->
     <!-- modal -->

@@ -1,5 +1,6 @@
 $(function(e){
 	let modalCount = $('.modal-content').length; // 有幾個Modal
+	console.log(modalCount);
 
 	// Scroll and show
 	$('.block').smoove();
