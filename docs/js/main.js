@@ -42,10 +42,11 @@ $(function(e){
 			targetPos = $(target).offset().top;
 		}
 
-		
-			$('html').animate({
-				scrollTop:targetPos+40,
-			},1500);
+		console.log(targetPos);
+
+		$('html,body').animate({
+			scrollTop:targetPos+40,
+		},1500);
 		
 
 		if(target == 'htmlcss'){
