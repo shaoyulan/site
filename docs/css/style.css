@@ -213,14 +213,16 @@ footer{
 	}
 	.skill-section .skill-row,.skill-section .skill-row .skill-item{
 		display: flex;
+		flex: 1 1 45%;
 	}
 	.skill-section .skill-row{
 		margin-bottom: 25px;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 	.skill-section .skill-row .skill-item > div{
-		width: 33%;
-		padding:10px;
+		width: 30%;
+	    padding: 10px;
+	    margin: 0 auto;
 	}
 	.skill-section .circle-plate{
 		margin-right: 10px;
@@ -277,17 +279,19 @@ footer{
 	}
 	.skill-section .skill-row .skill-item{
 		flex-direction: column;
+		flex: unset;
 	}
 	.skill-section .skill-row .skill-item > div{
 		width: unset;
 		padding-left: 10px;
 		padding-bottom: 0;
+		margin:unset;
 	}
 	.skill-section .skill-row .skill-item  p{
 		margin: 0;
 	}
 	.skill-section .circle-plate{
-		width: 143px; 
+		width: 120px;
 	}
 
 	/*works*/

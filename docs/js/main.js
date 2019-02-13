@@ -45,7 +45,7 @@ $(function(e){
 		console.log(targetPos);
 
 		$('html,body').animate({
-			scrollTop:targetPos+20,
+			scrollTop:targetPos,
 		},1500);
 		
 
