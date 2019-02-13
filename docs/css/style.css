@@ -252,7 +252,7 @@ footer{
 	header .container{
 		height: calc(50vh - 56px);
 	}*/
-	html,body{
+	body{
 		overflow-x: hidden;
 	}
 	header, .works-section, footer{
