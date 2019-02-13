@@ -105,7 +105,7 @@ header h1{
 	background:#d7e360;
 }
 .about-section .protrait{
-	background: url(../img/protrait1.jpg);
+	background: url(../img/portrait1.jpg);
 	background-size: cover;
 	background-position: center center;
 	min-height: 400px;
@@ -317,3 +317,40 @@ footer{
 	cursor: pointer;
 }
 
+
+/*portrait photo*/
+
+.frame{
+	position: relative;
+	width: 100%;
+	transform: rotate(-5deg);
+}
+.frame img{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: calc(100% + 54px);
+	height: calc(100% + 54px);
+}
+.frame:after{
+	content: "shaoyu the best";
+	height: 50px;
+	display: block;
+	color: black;
+	position: relative;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 43px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.protrait{
+	position: relative;
+}
+@media screen and (max-width: 768px){
+
+	.frame img{
+		width: calc(100% + 40px);
+		height: calc(100% + 40px);
+	}
+}
