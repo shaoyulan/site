@@ -15,7 +15,7 @@
 /*end override bootstrap*/
 
 /*override animated modal*/
-html,body{
+body{
 	/*avoid y-axis scrllBar after close modal*/
 	/*overflow-y: unset!important;*/
 	font-family: Microsoft JhengHei;
